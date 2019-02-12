@@ -48,7 +48,7 @@ void Ligght::sendSplitI2CMessage(byte* connectedBoards, int connectedBoardCount,
 	
 	// Send alternating payloads to the connected boards, depending if we're being used as a slave
 	for (int i = 0; i < connectedBoardCount; i++) {
-		String _payload = (i % 2 == (flag & 2)) ? mainPayload : secondaryPayload;
+		String _payload = (i % 2 == !(flag & 2 == 0)) ? mainPayload : secondaryPayload;
 		Ligght::sendI2CMessage(connectedBoards[i], _payload);
 	}
 }
