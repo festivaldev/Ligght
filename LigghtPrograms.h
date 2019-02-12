@@ -40,32 +40,32 @@ LightProgramStep simpleLight[] = {
 		mainState: None,
 		secondaryState: Green,
 		beginTime: 0,
-		duration: 20E2
+		duration: 20E3
 	},
 	{
 		mainState: None,
 		secondaryState: Yellow,
-		beginTime: 20E2,
-		duration: 3E2
+		beginTime: 20E3,
+		duration: 3E3
 	},
 	{
 		mainState: None,
 		secondaryState: Red,
-		beginTime: 23E2,
-		duration: 2E2
+		beginTime: 23E3,
+		duration: 2E3
 	},
 	
 	{
 		mainState: None,
 		secondaryState: RedYellow,
-		beginTime: 49E2,
-		duration: 2E2
+		beginTime: 49E3,
+		duration: 2E3
 	},
 	{
 		mainState: None,
 		secondaryState: Green,
-		beginTime: 51E2,
-		duration: 20E2,
+		beginTime: 51E3,
+		duration: 20E3,
 		isFinalStep: true
 	},
 };
@@ -75,49 +75,49 @@ LightProgramStep fourWayJunction[] {
 		mainState: Green,
 		secondaryState: Red,
 		beginTime: 0,
-		duration: 20E2
+		duration: 20E3
 	},
 	{
 		mainState: Yellow,
 		secondaryState: Red,
-		beginTime: 20E2,
-		duration: 3E2
+		beginTime: 20E3,
+		duration: 3E3
 	},
 	{
 		mainState: Red,
 		secondaryState: Red,
-		beginTime: 23E2,
-		duration: 2E2
+		beginTime: 23E3,
+		duration: 2E3
 	},
 	{
 		mainState: Red,
 		secondaryState: RedYellow,
-		beginTime: 25E2,
-		duration: 2E2
+		beginTime: 25E3,
+		duration: 2E3
 	},
 	{
 		mainState: Red,
 		secondaryState: Green,
-		beginTime: 27E2,
-		duration: 12.5E2
+		beginTime: 27E3,
+		duration: 12.5E3
 	},
 	{
 		mainState: Red,
 		secondaryState: Yellow,
-		beginTime: 39.5E2,
-		duration: 3E2,
+		beginTime: 39.5E3,
+		duration: 3E3,
 	},
 	{
 		mainState: Red,
 		secondaryState: Red,
-		beginTime: 42.5E2,
-		duration: 2E2
+		beginTime: 42.5E3,
+		duration: 2E3
 	},
 	{
 		mainState: RedYellow,
 		secondaryState: Red,
-		beginTime: 44.5E2,
-		duration: 2E2,
+		beginTime: 44.5E3,
+		duration: 2E3,
 		isFinalStep: true
 	},
 };

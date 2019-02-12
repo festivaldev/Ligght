@@ -115,7 +115,7 @@ void loop() {
 			}
 			
 			// If we're in the last step of the "On" state, reset the processor time
-			if (millis() - cMillis >= 51E2 && millis() - cMillis < 71E2) {
+			if (millis() - cMillis >= 51E3 && millis() - cMillis < 71E3) {
 				/// TODO: calculate remaining time;
 				cMillis = millis();
 			}

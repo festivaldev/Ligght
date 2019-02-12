@@ -13,7 +13,7 @@
 #define Ligght_h
 
 #define VERSION "1.0-4"
-#define BUILD "19w07a.development.190211-1223"
+#define BUILD "19w07a.release.190212-1158"
 
 #define BAUD_RATE 115200
 #define MAX_OUT_CHARS 24
